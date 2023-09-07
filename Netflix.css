@@ -1,0 +1,96 @@
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #f03737;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('Netflix.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ec4747;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.hero-content h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e2000b;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #aa3642;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+P{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+li{
+    color: red;
+    text-shadow: #f03737;
+    text-align: left;
+    font-size: 25px;
+    margin: 0;
+    padding: auto;
+}
+
+p1{
+    color: white;
+    font-size: 20px;
+}
